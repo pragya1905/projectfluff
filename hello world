@@ -1,15 +1,16 @@
 #include<iostream>
 using namespace std;
+
 class world
 {
-private:
-string greetings="hello world";
+ private:
+  string greetings="hello world";
 
 public:
-void hello()
-{
-cout<<greetings<<endl;
-}
+ void hello()
+  {
+  cout<<greetings<<endl;
+  }
 };
 int main()
 {
